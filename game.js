@@ -4,6 +4,9 @@ let board = ['', '', '', '', '', '', '', '', ''];
 let playerTime = 0;
 let symbols = ['o', 'x'];
 let gameOver = false;
+
+let winningMessageTextElement = document.querySelector("[data-winning-message-text]");
+let winningMessage = document.querySelector("[data-winning-message]")
     
 let winStates = [
     [0, 1, 2],
